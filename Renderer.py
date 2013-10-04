@@ -1,4 +1,3 @@
-
 import pygame
 from Position import Position
 from Node import Node
@@ -25,7 +24,6 @@ class Renderer:
             create_graphic = self.create_hex_gfx
             self.render = self.render_hex_map
         else:
-            # TODO: raise map type not found error
             raise Exception("Map type not found")
 
         self.empty_node_gfx = create_graphic(None)
