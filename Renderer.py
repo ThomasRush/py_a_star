@@ -1,5 +1,5 @@
 import pygame
-from Position import Position
+from Utilities import Position
 from Node import Node
 from Node_Map import Node_Map
 from time import time
